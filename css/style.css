@@ -27,7 +27,7 @@ header{
 
 header .logo img{
 	float: left;
-	width: 60px;
+	width: 120px;
 }
 
 nav.menu-mobile{
@@ -71,13 +71,13 @@ header nav.menu-desktop ul{
 
 header nav.menu-desktop ul li{
 	float: left;
-	font-size: 14px;
-	padding:0 20px;
+	font-size: 13px;
+	padding: 8px 20px;
 	text-transform: uppercase;
 }
 
 header ul a{
-	color: #b4b4b4;
+	color: #353131;
 	text-decoration: none;
 }
 
@@ -92,7 +92,9 @@ header ul a{
 	padding-top:100%;
 	background-color: #ccc;
 	border:5px solid white;
-	background-image:url('../Imagens-vanini/foto-mosaico1.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/*background-image:url('../Imagens-vanini/foto-mosaico1.png');*/
 }
 
 
@@ -174,7 +176,7 @@ section.perfil-container .img-perfil{
 	height: 80%;
 	background-image: url('../Imagens-vanini/foto-vanini.png');
 	background-size: 100% 100%;
-    box-shadow: ;
+    /*box-shadow: ;*/
 }
 
 section.perfil-container .texto-perfil{
@@ -183,12 +185,12 @@ section.perfil-container .texto-perfil{
 }
 
 section.perfil-container .texto-perfil h2{
-	 color: #698293;
+	 color: #353131;
 	 font-size: 18px;
 }
 
 section.perfil-container .texto-perfil p{
-	color: #4b4b4b;
+	color: #353131;
 	font-size: 14px;
 	margin-top:8px;
 }
@@ -214,42 +216,42 @@ section.videos iframe{
 	height: 100%;
 }
 
-section.tratamentos{
+section.eventos{
 	padding:70px 0;
 }
 
-section.tratamentos .tratamento-container{
+section.eventos .eventos-container{
 	float: left;
 	width: 33.3%;
 }
 
-section.tratamentos > h2{
-	color: #698293;
+section.eventos > h2{
+	color: #353131;
 	text-align: center;
 	font-size: 18px;
 }
 
-section.tratamentos > .container{
+section.eventos > .container{
 	padding:80px 0;
 }
 
-.tratamento-single{
+.eventos-single{
 	padding:20px;
 }
 
-.tratamento-single h2{
+.eventos-single h2{
 	font-size: 18px;
-	color: #737373;
+	color: #353131;
 }
 
-.tratamento-single p{
+.eventos-single p{
 	padding:10px 0;
 	font-size: 13px;
-	color: #b4b4b4;
+	color: #353131;
 }
 
 section.depoimentos > h2{
-	color: #698293;
+	color: #353131;
 	text-align: center;
 	font-size: 18px;
 }
@@ -267,7 +269,7 @@ section.depoimentos .depoimento-single{
 
 .depoimento-single quote{
 	font-size: 15px;
-	color: #b4b4b4;
+	color: #353131;
 }
 
 .depoimento-single .nome-depoimento{
@@ -284,7 +286,7 @@ section.depoimentos .depoimento-single{
 	position: relative;
 	top:4px;
 	font-size: 13px;
-	color: #b4b4b4;
+	color: #353131;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -313,6 +315,8 @@ section.depoimentos .depoimento-single{
 	float: left;
 	width: calc(100% / 9);
 	padding-top: calc(100% / 9);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	background-color: rgb(210,210,210);
 	border:6px solid white;
 }
@@ -337,7 +341,7 @@ section.contato{
 }
 
 section.contato > h2{
-	color: #698293;
+	color: #353131;
 	text-align: center;
 	font-size: 18px;
 }
@@ -364,7 +368,7 @@ section.contato form{
 
 .form-wraper span{
 	font-size: 15px;
-	color: #b4b4b4;
+	color: #353131;
 }
 
 .form-wraper input[type=text]{
