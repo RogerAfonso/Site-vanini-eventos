@@ -92,9 +92,7 @@ header ul a{
 	padding-top:100%;
 	background-color: #ccc;
 	border:5px solid white;
-	/*
-	background-image:url('');
-	*/
+	background-image:url('../Imagens-vanini/foto-mosaico1.png');
 }
 
 
@@ -173,9 +171,10 @@ section.perfil-container .perfil-wraper2{
 
 section.perfil-container .img-perfil{
 	width: 40%;
-	height: 100%;
-	background-image: url('../imagens/img_perfil.png');
+	height: 80%;
+	background-image: url('../Imagens-vanini/foto-vanini.png');
 	background-size: 100% 100%;
+    box-shadow: ;
 }
 
 section.perfil-container .texto-perfil{
